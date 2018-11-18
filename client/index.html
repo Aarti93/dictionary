@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+
+</head>
+<body onload="history.showFullHistory()">
+  <div class="wrapper">
+    <div class="left">
+      <h1 class="title">Word Search</h1>
+      <form id="form">
+        <input id="search-box" style="width: 250px;"/>
+        <input type="submit" value="Search" />
+      </form>
+      <div id="details"></div>
+    </div>
+    <div class="right">
+      <div>
+        <h2 style="text-align: center">History</h2>
+        <div id="history-list">
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>

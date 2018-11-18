@@ -1,0 +1,76 @@
+body {
+  background-image: url("./wheat-min.png");
+  background-repeat: repeat; 
+}
+.history-word {
+  line-height: 49px;
+  border-bottom: 1px solid #80808033;
+  padding-left: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+#history-list {
+  padding-right: 5%;
+  box-sizing: border-box;
+  height: 86vh;
+  overflow: scroll
+}
+.wrapper {
+  display: flex;
+}
+.left {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.right {
+  flex: 1;
+  border-left: 1px solid #80808033;
+  background-color: white;
+  opacity: 0.9; 
+}
+.word-details {
+  width: 550px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 15px -2px;
+  border-radius: 5px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 16px;
+  background-color: white;
+  opacity: 0.9;
+}
+.title {
+  background-color: white;
+  opacity: 0.9;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.type {
+  font-weight: bold;
+}
+input {
+  font-size: 18px;
+  border-radius: 3px;
+  padding: 5px;
+}
+h1,h2 {
+  font-family: cursive;
+}
+@media screen and (max-width: 800px) {
+  .wrapper {
+    display: block;
+  }
+  .word-details {
+    width: auto;
+  }
+  #history-list {
+    height: auto;
+    max-height: 86vh;
+  }
+}
