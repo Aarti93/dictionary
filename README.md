@@ -1,5 +1,6 @@
 # Dictionary app
-A vanilla js application that enables user to search for words to get their meaning and usage. 
+A vanilla js application that enables user to search for words to get their meaning and usage. http://dictionary.cloudno.de/
+
 
 ## Build Setup
 
